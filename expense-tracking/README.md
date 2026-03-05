@@ -13,4 +13,4 @@ This is a data processing application built with Python, Docker, and PostgreSQL.
 ## How to Run
 1. Start the system: `docker-compose up --build`
 2. Run analytics: `docker-compose run app python app/main.py analyze`
-3. Run tests: `pytest`
+3. Run tests: `pytest`"
