@@ -4,8 +4,6 @@ from models import ExpenseModel
 from database import clear_old_data, save_expense_to_db, get_analytics
 # import my database and model files
 
-
-
 load_dotenv()
 logging.basicConfig(level=os.getenv("LOG_LEVEL", "INFO"), format='%(message)s')
 
@@ -51,7 +49,7 @@ def show_analytics(month=None):
         for row in month_summary:
             print(f"   {row[0]:<15} | {float(row[1]):<12.2f}")
 
-    print(f"\n💰 FINAL TOTAL: ₹{float(total):.2f}\n")
+    print(f"\n FINAL TOTAL: ₹{float(total):.2f}\n")
 
 if __name__ == "__main__":
                             # setup  comand line Tool
