@@ -1,5 +1,5 @@
 services:
-  # database Setup
+  # 1. Database Service
   db:
     image: postgres:15
     environment:
@@ -7,21 +7,33 @@ services:
       POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
       POSTGRES_DB: ${POSTGRES_DB}
     volumes:
-      # run init.sl file automaticaly
+      # Automatically run init.sql to create tables on first startup
       - ./sql:/docker-entrypoint-initdb.d
 
-  # Our pyhton app
+  # 2. pgAdmin (Database UI)
+  pgadmin:
+    image: dpage/pgadmin4
+    environment:
+      # Use these credentials to log in to the pgAdmin website
+      PGADMIN_DEFAULT_EMAIL: admin@expense.com
+      PGADMIN_DEFAULT_PASSWORD: admin123
+    ports:
+      # Open http://localhost:8080 in your browser to view the UI
+      - "8080:80"
+    depends_on:
+      - db
+
+  # 3. Python Application
   app:
     build: .
     depends_on:
       - db
     environment:
-      # get password   .env file
       DB_HOST: db
       POSTGRES_USER: ${POSTGRES_USER}
       POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
       POSTGRES_DB: ${POSTGRES_DB}
       LOG_LEVEL: ${LOG_LEVEL}
     volumes:
-      # link dataFolder read csv
+      # Link the local data folder so the app can read CSV files
       - ./data:/app/data
