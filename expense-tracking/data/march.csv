@@ -1,0 +1,32 @@
+expense_date,category,amount,description
+2026-03-01,Food,150.00,Breakfast
+2026-03-02,Travel,60.00,Metro
+2026-03-03,Utilities,800.00,Internet
+2026-03-04,Office,1200.00,Monitor Stand
+2026-03-05,Food,200.00,Lunch
+2026-03-06,Shopping,1500.00,Shoes
+2026-03-07,Travel,45.00,Bus
+2026-03-08,Health,600.00,Supplements
+2026-03-09,Food,180.00,Snacks
+2026-03-10,Misc,50.00,Postage
+2026-03-11,Travel,60.00,Metro
+2026-03-12,Food,300.00,Dinner
+2026-03-13,Entertainment,1200.00,Concert
+2026-03-14,Shopping,400.00,Book
+2026-03-15,Health,200.00,Medicine
+2026-03-16,Food,220.00,Lunch
+2026-03-17,Travel,45.00,Bus
+2026-03-18,Utilities,500.00,Water Bill
+2026-03-19,Misc,100.00,Cleaning
+2026-03-20,Office,300.00,Stationery
+2026-03-21,Food,500.00,Party
+2026-03-22,Travel,100.00,Taxi
+2026-03-23,Shopping,800.00,Jeans
+2026-03-24,Health,400.00,Dentist
+2026-03-25,Food,120.00,Tea
+2026-03-26,Travel,60.00,Metro
+2026-03-27,Utilities,1000.00,Gas
+2026-03-28,Food,250.00,Grocery
+2026-03-29,Entertainment,500.00,Games
+2026-03-30,Office,150.00,Folder
+2026-03-31,Food,400.00,Treat

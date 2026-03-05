@@ -1,0 +1,31 @@
+expense_date,category,amount,description
+2026-04-01,Food,100.00,Breakfast
+2026-04-02,Travel,60.00,Metro
+2026-04-03,Utilities,800.00,Mobile
+2026-04-04,Office,400.00,Mousepad
+2026-04-05,Food,250.00,Lunch
+2026-04-06,Shopping,1200.00,Bag
+2026-04-07,Travel,45.00,Bus
+2026-04-08,Health,300.00,Consultation
+2026-04-09,Misc,50.00,Repair
+2026-04-10,Food,150.00,Dinner
+2026-04-11,Entertainment,800.00,Theme Park
+2026-04-12,Shopping,500.00,Hat
+2026-04-13,Travel,60.00,Metro
+2026-04-14,Food,200.00,Grocery
+2026-04-15,Utilities,1500.00,Rent Part
+2026-04-16,Health,100.00,Medicine
+2026-04-17,Food,180.00,Snacks
+2026-04-18,Travel,100.00,Taxi
+2026-04-19,Office,250.00,Cables
+2026-04-20,Food,300.00,Dinner
+2026-04-21,Misc,100.00,Gift
+2026-04-22,Travel,45.00,Bus
+2026-04-23,Shopping,700.00,Sunglasses
+2026-04-24,Food,120.00,Tea
+2026-04-25,Health,500.00,Therapy
+2026-04-26,Entertainment,400.00,Bowling
+2026-04-27,Travel,60.00,Metro
+2026-04-28,Utilities,600.00,Insurance
+2026-04-29,Food,220.00,Lunch
+2026-04-30,Misc,200.00,Subscription
